@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+h1
+{
+    font-family: "Kirang Haerang", "Akaya Kanadaka";
+}
+p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
