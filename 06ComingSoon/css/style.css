@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+img
+{
+    width: 250px;
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+    display: block; 
+    background: transparent;
+    
+}
+body
+{
+    height: 10%;
+    /* background-color: rgb(120, 206, 9); */
+    /* background: linear-gradient(180deg, rgb(53, 77, 187) 0%,rgb(56, 160, 100) 50%, rgb(222, 235, 44) 100%); */
+    background: linear-gradient(90deg, rgb(53, 77, 187) 0%, rgb(56, 160, 100) 50%, rgb(222, 235, 44) 100%);
+}
+
+.box
+{
+    margin-top: 15px;
+    border: 0px solid;
+    padding: 50px;
+    background: linear-gradient(90deg, rgb(222, 235, 44) 0%, rgb(56, 160, 100) 50%, rgb(109, 132, 236) 100% ); 
+    /* background-color: brown; */
+    
+    
+    
+}
+h1
+{
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    text-align: center;
+     font-size: 60px; 
+    text-transform: uppercase;
+    letter-spacing: 19px;
+}
+p
+{
+    margin-left: 50%;
+    margin-top: -40px;
+    font-family: "Exo 2";
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.box:hover
+{
+    background: linear-gradient(90deg, rgb(53, 77, 187) 0%, rgb(56, 160, 100) 50%, rgb(222, 235, 44) 100%);
+    
+    box-shadow: 0 0 100px 40px royalblue inset;
+    color: rgb(222, 235, 44);
+}
+
+.box-trans
+{
+    transition: color 3s, box-shadow 4s, background-color 5s;
+}
+
+

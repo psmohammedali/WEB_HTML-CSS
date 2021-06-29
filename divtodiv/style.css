@@ -1,0 +1,10 @@
+.outer
+{
+    background-color: blue;
+}
+.inner{
+    background-color: chartreuse;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
