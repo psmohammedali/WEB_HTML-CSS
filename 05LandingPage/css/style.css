@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body
+{
+    background: linear-gradient(91deg, #170d97  0%,#FFB94E 45%,#D24D57 85%, #170d97 100% );
+
+}
+p
+{
+    font-family: 'Akaya Kanadaka';
+    font-weight: 700;
+}
+.heading{
+    font-family: 'Roboto Slab';
+    text-align: center;
+    font: weight 900px;
+    margin-top: 20%;
+}
+.desc
+{
+    margin-top: -15px;
+    letter-spacing: 12px;
+    text-align: center;
+    font-weight: 800;
+}
+.ali
+{
+    font-size: 50px;
+    font-family: 'Akaya Kanadaka';
+}
+.respect
+{
+    
+    /* text-align: center; */
+    font-family: 'Caveat';
+    font-weight: 900;
+}
+.names
+{
+    font-size: 25px;
+}
+.footer
+{
+    position:absolute; 
+    /* border: 1px solid; */
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+.btn
+{
+    margin-top: 30px;
+    border: 1px solid;
+    text-align: center;
+}
+.log 
+{
+    display: block;
+    margin: auto;
+    margin-top: 50;
+    margin-bottom: 14px;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    border-radius: 16px;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+
+.log:hover
+{
+    color: white;
+    box-shadow: 0 0 100px 40px royalblue inset;
+   
+}
+.btn-transtion
+{
+    transition: color 900ms;
+    transition: box-shadow 2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
